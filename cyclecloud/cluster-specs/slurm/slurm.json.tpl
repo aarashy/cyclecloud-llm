@@ -77,7 +77,7 @@
       "Version" : "1.0.0"
     }
   },
-  "HPCImageName" : "microsoft-dsvm:ubuntu-hpc:1804:18.04.2021120101",
+  "HPCImageName" : "${vm_image}",
   "HPCMachineType" : "Standard_ND96amsr_A100_v4",
   "MaxHPCExecuteCoreCount" : 192,
   "HPCMaxScalesetSize" : 100,

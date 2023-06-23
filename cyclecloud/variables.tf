@@ -85,9 +85,9 @@ variable "cyclecloud_subscription_name" {
 }
 
 variable "cyclecloud_vm_image" {
-  description = "VM image to use on compute nodes"
+  description = "VM image to use on scheduler and compute nodes"
   type        = string
-  default     = "microsoft-dsvm:ubuntu-hpc:2004:20.04.2022121201"
+  default     = "microsoft-dsvm:ubuntu-hpc:2004:20.04.2023031501"
 }
 
 variable "public_key" {
